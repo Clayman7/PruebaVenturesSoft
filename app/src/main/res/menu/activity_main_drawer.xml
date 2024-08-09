@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_datos"
+            android:icon="@drawable/ic_datos"
+            android:title="@string/datos" />
+        <item
+            android:id="@+id/nav_supervisores"
+            android:icon="@drawable/ic_supervisores"
+            android:title="@string/supervi" />
+        <item
+            android:id="@+id/nav_zonas"
+            android:icon="@drawable/ic_zonas"
+            android:title="@string/zonas" />
+
+        <item
+            android:id="@+id/nav_estaciones"
+            android:icon="@drawable/ic_estaciones"
+            android:title="@string/estaciones" />
+        <item
+            android:id="@+id/nav_empleados"
+            android:icon="@drawable/ic_empleados"
+            android:title="@string/empleados" />
+        <item
+            android:id="@+id/nav_reportes"
+            android:icon="@drawable/ic_reportes"
+            android:title="@string/reportes" />
+        <item
+            android:id="@+id/nav_historial"
+            android:icon="@drawable/ic_historial"
+            android:title="@string/historial" />
+        <item
+            android:id="@+id/nav_pass"
+            android:icon="@drawable/ic_pass"
+            android:title="@string/pass" />
+        <item
+            android:id="@+id/nav_config"
+            android:icon="@drawable/ic_setting"
+            android:title="@string/config" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout" />
+    </group>
+</menu>

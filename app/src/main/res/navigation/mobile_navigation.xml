@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_datos">
+
+    <fragment
+        android:id="@+id/nav_datos"
+        android:name="com.cyberapp.pruebaventuressoft.ui.detail.ui.detail.datos.DatosFragment"
+        android:label="@string/datos"
+        tools:layout="@layout/fragment_datos" />
+    <fragment
+        android:id="@+id/nav_supervisores"
+        android:name="com.cyberapp.pruebaventuressoft.ui.detail.ui.detail.supervisores.SupervisoresFragment"
+        android:label="@string/supervi"
+        tools:layout="@layout/fragment_supervisores" />
+    <fragment
+        android:id="@+id/nav_zonas"
+        android:name="com.cyberapp.pruebaventuressoft.ui.detail.ui.detail.zonas.ZonasFragment"
+        android:label="@string/zonas"
+        tools:layout="@layout/fragment_zonas" />
+
+    <fragment
+        android:id="@+id/nav_estaciones"
+        android:name="com.cyberapp.pruebaventuressoft.ui.detail.ui.detail.estaciones.EstacionesFragment"
+        android:label="@string/estaciones"
+        tools:layout="@layout/fragment_estaciones" />
+    <fragment
+        android:id="@+id/nav_empleados"
+        android:name="com.cyberapp.pruebaventuressoft.ui.detail.ui.detail.empleados.EmpleadosFragment"
+        android:label="@string/empleados"
+        tools:layout="@layout/fragment_empleados" />
+    <fragment
+        android:id="@+id/nav_reportes"
+        android:name="com.cyberapp.pruebaventuressoft.ui.detail.ui.detail.reportes.ReportesFragment"
+        android:label="@string/reportes"
+        tools:layout="@layout/fragment_reportes" />
+    <fragment
+        android:id="@+id/nav_historial"
+        android:name="com.cyberapp.pruebaventuressoft.ui.detail.ui.detail.historial.HistorialFragment"
+        android:label="@string/historial"
+        tools:layout="@layout/fragment_historial" />
+    <fragment
+        android:id="@+id/nav_pass"
+        android:name="com.cyberapp.pruebaventuressoft.ui.detail.ui.detail.password.PassFragment"
+        android:label="@string/pass"
+        tools:layout="@layout/fragment_pass" />
+    <fragment
+        android:id="@+id/nav_config"
+        android:name="com.cyberapp.pruebaventuressoft.ui.detail.ui.detail.configuracion.ConfiguracionFragment"
+        android:label="@string/config"
+        tools:layout="@layout/fragment_configuracion" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.cyberapp.pruebaventuressoft.ui.detail.ui.detail.logout.LogoutFragment"
+        android:label="@string/logout"
+        tools:layout="@layout/fragment_logout" />
+
+</navigation>
+

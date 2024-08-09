@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">PruebaVenturesSoft</string>
+    <string name="inicio">Iniciar sesión</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="correoHint">Ingresar correo</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="contraseñaHint">Ingresar contraseña</string>
+    <string name="entrar">Entrar</string>
+    <string name="crear">Crear cuenta</string>
+    <string name="recupera">Recuperar contraseña</string>
+    <string name="ET201">El campo "email" es obliogatorio</string>
+    <string name="ET202">El campo "password" es obliogatorio</string>
+    <string name="ET2016">El usuario no existe</string>
+    <string name="ET2017">Password invalido</string>
+    <string name="aviso">Aviso</string>
+    <string name="aceptar">Aceptar</string>
+
+    <!--menu -->
+    <string name="name">Santiago*Jair</string>
+    <string name="datos">Datos de Compañia</string>
+    <string name="supervi">Supervisores</string>
+    <string name="zonas">Zonas</string>
+    <string name="estaciones">Estaciones</string>
+    <string name="empleados">Empleados</string>
+    <string name="reportes">Reportes</string>
+    <string name="historial">Historial de auditoría</string>
+    <string name="pass">Cambiar contraseña</string>
+    <string name="config">Configuración</string>
+    <string name="logout">Cerrar sesión</string>
+
+    <!--Datos de compañia -->
+   <string name="descripcionComp">VenturesSoft® es la empresa líder de servicios de gestión de personal en la nube. Nuestro objetivo es optimizar y automatizar los procesos de Nómina, Administración del Tiempo y Capital Humano a través de la Transformación Digital que aprovecha el uso de las nuevas Tecnologías 4.0.</string>
+    <string name="mision">Impulsar la transformación continúa de los procesos de Capital Humano de las empresas aprovechando las nuevas tecnologías, ofreciendo a los clientes satisfacción en los servicios.</string>
+    <string name="misionTitulo">Misión</string>
+    <string name="visionTitulo">Visión</string>
+    <string name="vision">Ser los líderes en servicios de tecnología en la nube para la administración de Capital Humano de las empresas</string>
+
+    <!--Supervisores -->
+    <string name="superUno">1. Francisco Lopez Herrera</string>
+    <string name="superDos">2. Marta Garcia Lara</string>
+    <string name="superTres">3. Lorena Reyes Perez</string>
+
+    <!--Zonas -->
+    <string name="direcUno">Muelle Natalia, 92 Esc. 885, Guerrero, Petatlán</string>
+    <string name="direcDos">Travesía Carolina Leal 6 Puerta 541, Sonora, San Pedro de la Cueva</string>
+    <string name="direcTres">Municipio Magdalena, 38 Esc. 695 Coahuila, Parras</string>
+
+    <!--Estaciones-->
+    <string name="estacionUno">Municipio Magdalena, 38 Esc. 695 Coahuila, Parras</string>
+    <string name="estacionDos">Muelle Natalia, 92 Esc. 885, Guerrero, Petatlán</string>
+    <string name="estacionTres">Travesía Carolina Leal 6 Puerta 541, Sonora, San Pedro</string>
+
+    <!--reportes-->
+    <string name="reporteUno">"Carlos ha demostrado una excelente capacidad para resolver conflictos internos, logrando mantener un ambiente laboral armonioso. Sin embargo, se recomienda mejorar la eficiencia en la gestión de documentos."</string>
+    <string name="reporteDos"> "Ana lideró exitosamente la implementación de un nuevo sistema de seguimiento de candidatos, mejorando el tiempo de contratación en un 20%. Debería enfocarse en desarrollar habilidades en presentaciones para ejecutivos."</string>
+    <string name="reporteTres"> "María ha sido proactiva en la identificación de necesidades de formación dentro del equipo. Su enfoque en la comunicación directa ha mejorado la moral del equipo, aunque podría trabajar en su organización personal."</string>
+
+    <!--Empleados -->
+    <string name="empleadoUno">Alejandro Pérez Salinas</string>
+    <string name="empleadoDos">Diego Martínez Tobar</string>
+    <string name="empleadoTres">Valeria Rodríguez Vega</string>
+    <string name="empleadoCuatro">Camila Gómez Mejia</string>
+    <!--Historial-->
+    <string name="historialUno">"Luis realizó una auditoría interna exhaustiva, detectando un 15% de discrepancias en los registros financieros. Sin embargo, se le recomienda mejorar la claridad en la documentación de sus hallazgos."</string>
+    <string name="historialDos"> "Sofía identificó y corrigió varios procedimientos ineficientes durante la revisión de controles internos. Aunque sus análisis son detallados, debería enfocarse en reducir el tiempo de entrega de los informes."</string>
+    <string name="historialTres">"Jorge ha demostrado un sólido conocimiento en normativas de cumplimiento, contribuyendo a la mejora del control de riesgos. Se sugiere mejorar la comunicación con otros departamentos para facilitar la implementación de sus recomendaciones."</string>
+
+    <!--Cmbiar contraseña-->
+    <string name="cambiar">Escribe la nueva constraseña</string>
+    <string name="cambiarDos">Repite la nueva contraseña</string>
+    <string name="Enviar">Enviar</string>
+
+    <!--configuracion-->
+    <string name="configCuenta">Configurar la cuenta</string>
+    <string name="noti">Habilitar notificaciones</string>
+    <string name="acerca">Acerca de la app</string>
+    <string name="politica">Politica de privacidad</string>
+
+    <!--logout-->
+    <string name="advertencia">Al cerrar sesión no podras acceder a los datos de trabajo</string>
+
+    <string name="title_activity_detail_prueba">DetailPruebaActivity</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

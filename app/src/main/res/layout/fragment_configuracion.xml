@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.detail.ui.detail.reportes.ReportesFragment">
+
+    <TextView
+        android:id="@+id/tituloConfig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="25dp"
+        android:text="@string/config"
+        android:textSize="35dp"/>
+
+    <Button
+        android:id="@+id/btnconfigCuenta"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:text="@string/configCuenta"
+        app:layout_constraintTop_toBottomOf="@+id/tituloConfig"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"/>
+
+
+    <Switch
+        android:id="@+id/switchNotificaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/btnconfigCuenta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="25dp"
+        android:text="@string/noti"
+        android:checked="true"
+        />
+
+    <Button
+        android:id="@+id/btnPolitica"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:text="@string/politica"
+        app:layout_constraintTop_toBottomOf="@+id/switchNotificaciones"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:text="@string/acerca"
+        app:layout_constraintTop_toBottomOf="@+id/btnPolitica"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="25dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
